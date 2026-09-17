@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN javac Main.java
+RUN find . -name "*.java" > sources.txt && javac @sources.txt
 
 EXPOSE 5001
 

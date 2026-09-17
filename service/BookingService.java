@@ -4,7 +4,6 @@ import Practice.MovieBookingSystem.DTOs.*;
 import Practice.MovieBookingSystem.utils.BaseUtil;
 import Practice.MovieBookingSystem.utils.PricingUtils;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
